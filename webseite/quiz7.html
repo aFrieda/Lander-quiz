@@ -1,0 +1,53 @@
+<form id="quiz" action="">
+    <h2>Wie viele Einwohner hat das Slowenien</h2>
+    <img src="Flag_of_Slovenia.jpg" width="950" height="440" >
+    <style>
+        #quiz ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#quiz li {
+	margin: 0;
+	padding: 0;
+}
+
+#quiz label {
+	display: block;
+	background-color: #fffbf0;
+	border: 2px solid #449b5e;
+}
+
+#quiz label:hover {
+	background-color: #dfac20;
+}
+
+#quiz input:checked ~ label,
+#quiz input:focus ~ label  {
+	background-color: #dfac20;
+	border-color: #866a00;
+}
+
+#quiz input {
+	left: -9999px;
+	position: absolute;
+}
+    </style>
+    <ul>
+      <li>
+        <input type="radio" name="answer" id="a27_0" >
+        <label for="a27_0">A: 1,3 Millionen</label></li>
+      <li>
+        <input type="radio" name="answer" id="a27_1" >
+        <label for="a27_1">B: 3,8 Millionen</label>
+      </li>
+      <li>
+        <input type="radio" name="answer" id="a27_2"   value="Antwort 3">
+        <label for="a27_2">C: 2,108 Millionen</label>
+      </li>
+    </ul>
+    <a href="ende.html">Weiter</a>
+    
+
+  </form>
